@@ -31,7 +31,7 @@ jobs:
         run: docker login -u $username -p $password
           
       - name: Build the Docker image
-        run: docker build -t $username/splashstatsapp:latest ./SplashStats.API/
+        run: docker build -t brandredo/splashstatsapp:latest ./SplashStats.API/
       
       - name: Publish to Docker Hub
         run: docker push ${{secrets.DOCKER_USERNAME}}/splashstatsapp
