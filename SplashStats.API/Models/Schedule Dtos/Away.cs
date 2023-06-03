@@ -1,5 +1,5 @@
 ﻿using System;
-namespace SplashStats.API.Models.Schedule
+namespace SplashStats.API.Models.ScheduleDtos
 {
 	public class Away
 	{

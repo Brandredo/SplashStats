@@ -1,12 +1,12 @@
 ﻿using System;
-namespace SplashStats.API.Models.Schedule
+namespace SplashStats.API.Models.ScheduleDtos
 {
 	public class Game
 	{
         public string Id { get; set; }
 		public string Status { get; set; }
 		public string Coverage { get; set; }
-		public string Schedule { get; set; }
+		public string Scheduled { get; set; }
 		public int Home_Points { get; set; }
 		public int Away_Points { get; set; }
 		public bool Track_On_Court { get; set; }
@@ -15,6 +15,9 @@ namespace SplashStats.API.Models.Schedule
 		public TimeZone Time_Zones { get; set; }
 		public Venue Venue { get; set; }
 		public List<Broadcast> Broadcasts { get; set; }
+		public Home Home { get; set; }
+		public Away Away { get; set; }
+
 
 
 

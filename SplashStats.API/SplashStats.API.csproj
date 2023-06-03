@@ -4,6 +4,7 @@
     <TargetFramework>net6.0</TargetFramework>
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
+    <UserSecretsId>babed85a-92e2-4bbc-b9ac-6f9cfbe1ab60</UserSecretsId>
   </PropertyGroup>
 
   <ItemGroup>
@@ -12,8 +13,14 @@
 
   <ItemGroup>
     <None Remove="Controllers\" />
+    <None Remove="Folder\" />
+    <None Remove="Models\Team Dtos\" />
+    <None Remove="Models\Player Dtos\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Controllers\" />
+    <Folder Include="Models\" />
+    <Folder Include="Models\Team Dtos\" />
+    <Folder Include="Models\Player Dtos\" />
   </ItemGroup>
 </Project>
